@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:background="@drawable/back">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E8621"
+            android:text="1. what is the scientific name of rhododendron?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E8621">
+
+            <RadioButton
+                android:id="@+id/rhododendron_ferrugineum_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhododendron Ferrugineum"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rhododendron_lazio_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhododendron Lazio"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rhododendron_azalia_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhododendron Azalia"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rhododendron_blizz_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhododendron Blizz"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E8621"
+            android:text="2. what is the scientific name of Rose?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_two_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E8621">
+
+            <RadioButton
+                android:id="@+id/rosa_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rosa"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rosi_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rosi"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rossi_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rossi"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/ross_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ross"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E8621"
+            android:text="3. what is the scientific name of Tulsi (Holy Basil)?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_three_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E8621">
+
+            <RadioButton
+                android:id="@+id/ocimum_tenuiflorum_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocimum Tenuiflorum"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/ocimum_florum_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocimum Florum"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/ocimum_tenui_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocimum Tenui"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/ocimum_tenlorum_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ocimum Tenlorum"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E8621"
+            android:text="4. what is the scientific name of Neem ?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_four_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E8621">
+
+            <RadioButton
+                android:id="@+id/azadirachta_indica_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azadirachta Indica"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/azadira_indica_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azadira Indica"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/azadirachta_indicam_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azadirachta Indicam"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/Azadirachtam_indica_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azadirachtam_Indica"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/custom_button"
+            android:text="Submit"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
